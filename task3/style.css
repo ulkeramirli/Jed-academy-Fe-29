@@ -28,19 +28,40 @@ body{
         justify-content: space-evenly;
         >.box{
             
-            >p{
-                border: 1px;
-                border-radius: 5px;
-                padding: 25px;
+            
+            >i{
+                font-size: 80px;
+                border-radius: 50%;
+                width: 260px;
+                height: 260px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 color: #fff;
-                font-size: 32px;
-                background-color: #7d4698;
-            }
-            >a{
-                color: #fff;
-                font-size: 32px;
+                background-color: #31153f;
+                margin-bottom: 15px;
+                
+        
             }
         }
         
     }
+}
+.footer button{
+    
+        border: 1px;
+        border-radius: 5px;
+        padding: 25px;
+        color: #fff;
+        font-size: 32px;
+        background-color: #7d4698;
+        gap: 20px;
+
+    
+
+}
+.footer a{
+        color: #fff;
+        font-size: 32px;
+        
 }
